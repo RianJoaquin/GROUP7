@@ -1,0 +1,38 @@
+C:\Users\mark dion\source\repos\Finals\Finals\bin\Debug\Finals.exe.config
+C:\Users\mark dion\source\repos\Finals\Finals\bin\Debug\Finals.exe
+C:\Users\mark dion\source\repos\Finals\Finals\bin\Debug\Finals.pdb
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.csproj.AssemblyReference.cache
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.Form1.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.Properties.Resources.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.signup.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.csproj.GenerateResource.cache
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.csproj.CoreCompileInputs.cache
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.exe
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.pdb
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.button1.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.dashboard.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.GuestDash.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.AddItem.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.Component1.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.UC_PlaceOrder.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.Update.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.Remove.resources
+C:\Users\mark dion\source\repos\Finals\Finals\obj\Debug\Finals.UserControl1.resources
+D:\Finals\Finals\obj\Debug\Finals.csproj.AssemblyReference.cache
+D:\Finals\Finals\obj\Debug\Finals.Remove.resources
+D:\Finals\Finals\obj\Debug\Finals.AddItem.resources
+D:\Finals\Finals\obj\Debug\Finals.Component1.resources
+D:\Finals\Finals\obj\Debug\Finals.dashboard.resources
+D:\Finals\Finals\obj\Debug\Finals.Form1.resources
+D:\Finals\Finals\obj\Debug\Finals.GuestDash.resources
+D:\Finals\Finals\obj\Debug\Finals.Properties.Resources.resources
+D:\Finals\Finals\obj\Debug\Finals.UC_PlaceOrder.resources
+D:\Finals\Finals\obj\Debug\Finals.Update.resources
+D:\Finals\Finals\obj\Debug\Finals.UserControl1.resources
+D:\Finals\Finals\obj\Debug\Finals.csproj.GenerateResource.cache
+D:\Finals\Finals\obj\Debug\Finals.csproj.CoreCompileInputs.cache
+D:\Finals\Finals\obj\Debug\Finals.exe
+D:\Finals\Finals\obj\Debug\Finals.pdb
+D:\Finals\Finals\bin\Debug\Finals.exe.config
+D:\Finals\Finals\bin\Debug\Finals.exe
+D:\Finals\Finals\bin\Debug\Finals.pdb
