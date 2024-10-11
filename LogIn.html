@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            font-family: Nunito, sans-serif;
+        }
+        .login-container {
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #d9d9d9;
+            border: 2px solid #c70b0b;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .login-container input {
+            display: block;
+            width: 90%;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #c70b0b;
+        }
+        .login-btn {
+            background-color: #c70b0b;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 50%;
+            border-radius: 10px;
+        }
+        .login-btn:hover {
+            background-color: #a30d0d;
+        }
+        h2 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Administration Log-In</h2>
+        <form action="">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button class="login-btn" type="submit">Log-In</button>
+        </form>
+    </div>
+</body>
+</html>
