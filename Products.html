@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .redbox {
+            position: absolute;
+            width: 35rem;
+            height: 50rem;
+            background-color: #c70b0b;
+        }
+        .greybox {
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            background-color: #d9d9d9;
+            width: 40rem;
+            border-radius: 15px;
+        }
+        html * {
+            font-family: Nunito, sans-serif;
+        }
+        body {
+            background-image: url('Forest.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .box, .box2 {
+            display: block;
+            width: 100%;
+            border: none;
+            height: 50px;
+            width: 400px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 15px;
+        }
+        .box {
+            background-color: #d9d9d9;
+            color: black;
+        }
+        .box2 {
+            background-color: #c70b0b;
+            color: white;
+        }
+        .small-box {
+            width: 200px;
+            height: 40px;
+            font-size: 14px;
+            background-color: #c70b0b;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .small-greybox {
+            margin: auto;
+            width: 45rem;
+            background-color: #e0e0e0;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .button-grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        #outputBox {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function displayProductName(name) {
+            document.getElementById('outputBox').value = name;
+        }
+
+        function addProduct() {
+            const productName = document.getElementById('outputBox').value;
+            if (productName) {
+                alert(`"${productName}" has been added!`);
+            } else {
+                alert('No product was selected. Please select a product first.');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="redbox">
+    <center>
+        <br>
+        <img src="UserIcon.jpg" alt="User Icon" width="200" height="200"><br><br>
+        <button class="box" onclick="document.location='Accounts.html'">ACCOUNT</button> <br>
+        <button class="box" onclick="document.location='Inventory.html'">INVENTORY</button> <br>
+        <button class="box" onclick="document.location='Services.html'">SERVICES</button> <br>
+        <button class="box" onclick="document.location='Products.html'">PRODUCTS</button> <br>
+        <button class="box" onclick="document.location='AboutUs.html'">ABOUT US</button> <br>
+		<button class="box" onclick="document.location='LogIn.html'">LOG OUT</button> <br>
+    </center>
+</div>
+
+<div class="greybox">
+    <br>
+    <center>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser 4.5L')">Mercury MerCruiser 4.5L</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser 8.2L')">Mercury MerCruiser 8.2L</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser 6.2L 350HP')">Mercury MerCruiser 6.2L 350HP</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser 8.2L 425HP')">Mercury MerCruiser 8.2L 425HP</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser T6200 Towsport Inboard')">Mercury MerCruiser T6200 Towsport Inboard</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury Avator 25e')">Mercury Avator 25e</button> <br>
+        <button class="box2" onclick="displayProductName('Mercury MerCruiser 6.2L 350HP')">Mercury MerCruiser 6.2L 350HP</button> <br>
+    </center>
+
+    <input type="text" id="outputBox" placeholder="Selected Product will appear here" readonly>
+</div>
+
+<br>
+
+<div class="small-greybox">
+    <center>
+        <div class="button-grid">
+            <button class="small-box" onclick="addProduct()">ADD</button>
+            <button class="small-box">EDIT</button>
+            <button class="small-box">DELETE</button>
+        </div>
+        <br>
+        <div class="button-grid-2">
+            <button class="small-box">OPTIMIZE</button>
+            <button class="small-box">AUTO-OPTIMIZE</button>
+        </div>
+    </center>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accounts</title>
+  <style>
+    html * {
+      font-family: Nunito, sans-serif;
+    }
+    body {
+      background-image: url('Forest.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .redbox {
+      position: absolute;
+      width: 35rem;
+      height: 50rem;
+      background-color: #c70b0b;
+      padding-top: 2rem;
+      text-align: center;
+    }
+    .greybox {
+      margin: 1rem auto;
+      width: 40rem;
+      padding: 10px;
+      height: 17rem;
+      background-color: #d9d9d9;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .box, .box2 {
+      display: block;
+      width: 400px;
+      height: 50px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 15px;
+      margin: 10px auto;
+      border: none;
+    }
+    .box {
+      background-color: #d9d9d9;
+      color: black;
+    }
+    .box2 {
+      background-color: #c70b0b;
+      color: white;
+    }
+    p {
+      width: 100%;
+      font-size: 20px;
+      background-color: #c70b0b;
+      color: white;
+      padding: 10px;
+      border-radius: 15px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="redbox">
+  <img src="UserIcon.jpg" alt="User Icon" width="200" height="200">
+  <button class="box" onclick="document.location='Accounts.html'">ACCOUNT</button>
+  <button class="box" onclick="document.location='Inventory.html'">INVENTORY</button>
+  <button class="box" onclick="document.location='Services.html'">SERVICES</button>
+  <button class="box" onclick="document.location='Products.html'">PRODUCTS</button>
+  <button class="box" onclick="document.location='AboutUs.html'">ABOUT US</button>
+  <button class="box" onclick="document.location='LogIn.html'">LOG OUT</button>
+</div>
+
+<div class="greybox">
+  <p>Users Purchase History</p>
+  <button class="box2" onclick="document.location=''">Mercury MerCruiser T6200</button>
+  <button class="box2" onclick="document.location=''">Mercury Avator 35e</button>
+  <button class="box2" onclick="document.location=''">Mercury Avator 7.5e</button>
+</div>
+
+<div class="greybox">
+  <p>Users Frequently Bought</p>
+  <button class="box2" onclick="document.location=''">Mercury MerCruiser T6200</button>
+  <button class="box2" onclick="document.location=''">Mercury MerCruiser 8.2L</button>
+  <button class="box2" onclick="document.location=''">Mercury MerCruiser 6.2L</button>
+</div>
+
+<div class="greybox">
+  <button class="box2" onclick="document.location=''">Users Information</button>
+  <button class="box2" onclick="document.location=''">Advanced Users Settings</button>
+  <button class="box2" onclick="document.location=''">Users Banking Details</button>
+</div>
+
+</body>
+</html>
